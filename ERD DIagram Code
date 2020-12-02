@@ -1,0 +1,9 @@
+departments 
+-
+index_no VARCHAR PK
+index_name VARCHAR
+
+books
+-
+book_sales INT PK
+book_title VARCHAR FK 
