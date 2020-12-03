@@ -12,3 +12,9 @@ customer_name
 -
 first_name VARCHAR PK
 last_name VARCHAR
+
+customer_location 
+-
+address VARCHAR PK
+state VARCHAR
+
