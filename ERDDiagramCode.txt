@@ -7,3 +7,8 @@ books
 -
 book_sales ISBN PK
 book_title VARCHAR FK
+
+customer_name
+-
+first_name VARCHAR PK
+last_name VARCHAR
