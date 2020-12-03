@@ -5,5 +5,5 @@ index_name VARCHAR
 
 books
 -
-book_sales INT PK
-book_title VARCHAR FK 
+book_sales ISBN PK
+book_title VARCHAR FK
