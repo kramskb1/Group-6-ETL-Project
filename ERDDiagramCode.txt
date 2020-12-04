@@ -1,19 +1,35 @@
-departments 
+Genre
 -
-index_no ISBN PK
-index_name VARCHAR
+ISBN VARCHAR PK FK >- Language.ISBN
+genre VARCHAR
 
-books
+Rating
 -
-book_sales ISBN PK
-book_title VARCHAR FK
+ISBN VARCHAR PK FK >- Language.ISBN
+avg_rating VARCHAR
+ratings_count VARCHAR
+text_ratings_count VARCHAR
 
-customer_name
+Language
 -
-first_name ISBN PK
-last_name VARCHAR
+ISBN VARCHAR PK
+lang VARCHAR
 
-customer_location 
+New_York_Times
 -
-address ISBN PK
-state VARCHAR
+ISBN VARCHAR PK FK >- Oprahs.ISBN
+is_best_seller VARCHAR
+year VARCHAR
+
+Oprahs
+-
+ISBN VARCHAR PK 
+bookclub_date VARCHAR
+
+Book_description
+-
+ISBN VARCHAR PK FK >- Rating.ISBN
+title VARCHAR
+author VARCHAR
+number_of_pages VARCHAR
+publication_date VARCHAR
