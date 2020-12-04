@@ -1,6 +1,6 @@
 departments 
 -
-index_no VARCHAR PK
+index_no ISBN PK
 index_name VARCHAR
 
 books
@@ -10,11 +10,10 @@ book_title VARCHAR FK
 
 customer_name
 -
-first_name VARCHAR PK
+first_name ISBN PK
 last_name VARCHAR
 
 customer_location 
 -
-address VARCHAR PK
+address ISBN PK
 state VARCHAR
-
