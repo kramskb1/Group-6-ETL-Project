@@ -36,17 +36,17 @@ https://en.m.wikipedia.org/wiki/Lists_of_The_New_York_Times_Fiction_Best_Sellers
 https://en.m.wikipedia.org/wiki/Oprah%27s_Book_Club 
 
 # A brief summary of the three ETL steps you will take to create this database:
-Extract - using python from kaggle and web scraping from  barnes and noble
-Transform - using pandas, python, sql and transform the data that is extracted
-Load - make a connection between pandas and postgres; load the data into the respective tables
+ - Extract - using python from kaggle and web scraping from  barnes and noble
+ - Transform - using pandas, python, sql and transform the data that is extracted
+ - Load - make a connection between pandas and postgres; load the data into the respective tables
 
 # A description of what each team member will be responsible for:
-Pre-work: (assess the sources and find the best data which will suit the DB) - Ryan, Benjamin Kramskoi, Celeste, Saroja
-Extraction - Ryan , Celeste
-Transforming - Celeste, Saroja
-ERD Diagram - Benjamin Kramskoi
-Load - Saroja
-Github Repository - Benjamin Kramskoi, Ryan
+ - Pre-work: (assess the sources and find the best data which will suit the DB) - Ryan, Benjamin Kramskoi, Celeste, Saroja
+ - Extraction - Ryan , Celeste
+ - Transforming - Celeste, Saroja
+ - ERD Diagram - Benjamin Kramskoi
+ - Load - Saroja
+ - Github Repository - Benjamin Kramskoi, Ryan
 
 # Information to Extract:
 ## Kaggle - GoodReads
