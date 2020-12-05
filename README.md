@@ -6,7 +6,7 @@
 	- Clone the Repo onto your local machine
 	- Add a config.py file that has the following information in this format
 	username : (Your PGAdmin username)
-	password : (Your PGAdmin password
+	password : (Your PGAdmin password)
 	- In PGAdmin, create a new database titled "good_books_db"
 	- Run the "Creatingtables.sql" code, located in "SQL_code" folder, in PGAdmin query editor
 	- Run the "goodreads_data.ipnyb" code in jupyter notebook
