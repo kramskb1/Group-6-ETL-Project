@@ -7,6 +7,7 @@ oprahs
 -
 isbn VARCHAR PK FK - Book_description.isbn
 bookclub_year INT
+bookclub_month INT
 
 book_description
 -
