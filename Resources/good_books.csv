@@ -1,4 +1,4 @@
-bookID,title,authors,average_rating,isbn,language_code,  num_pages,ratings_count,text_reviews_count,publication_date
+﻿bookID,title,authors,average_rating,isbn,language_code,  num_pages,ratings_count,text_reviews_count,publication_date
 1,Harry Potter and the Half-Blood Prince (Harry Potter  #6),J.K. Rowling/Mary GrandPré,4.57,0439785960,eng,652,2095690,27591,9/16/2006
 2,Harry Potter and the Order of the Phoenix (Harry Potter  #5),J.K. Rowling/Mary GrandPré,4.49,0439358078,eng,870,2153167,29221,9/1/2004
 4,Harry Potter and the Chamber of Secrets (Harry Potter  #2),J.K. Rowling,4.42,0439554896,eng,352,6333,244,11/1/2003
