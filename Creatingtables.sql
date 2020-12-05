@@ -12,7 +12,6 @@ CREATE TABLE "new_york_times" (
 
 CREATE TABLE "oprahs" (
     "isbn" VARCHAR   NOT NULL,
-    "bookclub_month" INT   NOT NULL,
     "bookclub_year" INT   NOT NULL,
     CONSTRAINT "pk_oprahs" PRIMARY KEY (
         "isbn"
