@@ -1,80 +1,68 @@
-Title,Year,Month
-The Deep End of the Ocean,1996,9
-Song of Solomon,1996,10
-The Book of Ruth,1996,11
-She's Come Undone,1996,12
-Stones from the River,1997,2
-The Rapture of Canaan,1997,4
-The Heart of a Woman,1997,5
-Songs In Ordinary Time,1997,6
-The Meanest Thing To Say,1997,9
-A Lesson Before Dying,1997,9
-A Virtuous Woman,1997,10
-Ellen Foster,1997,10
-The Treasure Hunt,1997,12
-The Best Way to Play,1997,12
-Paradise,1998,1
-Here on Earth,1998,3
-Black and Blue,1998,4
-"Breath, Eyes, Memory",1998,5
-I Know This Much Is True,1998,6
-What Looks Like Crazy on an Ordinary Day,1998,9
-Midwives,1998,10
-Where the Heart Is,1998,12
-Jewel,1999,1
-The Reader,1999,2
-The Pilot's Wife,1999,3
-White Oleander,1999,5
-Mother of Pearl,1999,6
-Tara Road,1999,9
-"River, Cross My Heart",1999,10
-Vinegar Hill,1999,11
-A Map of the World,1999,12
-Gap Creek,2000,1
-Daughter of Fortune,2000,2
-Back Roads,2000,3
-The Bluest Eye,2000,4
-While I Was Gone,2000,5
-The Poisonwood Bible,2000,6
-Open House,2000,8
-Drowning Ruth,2000,9
-House of Sand and Fog,2000,11
-We Were the Mulvaneys,2001,1
-Icy Sparks,2001,3
-Stolen Lives: Twenty Years in a Desert Jail,2001,5
-Cane River,2001,6
-The Corrections,2001,9
-A Fine Balance,2001,11
-Fall on Your Knees,2002,1
-Sula,2002,4
-East of Eden,2003,6
-"Cry, The Beloved Country",2003,9
-One Hundred Years of Solitude,2004,1
-The Heart Is a Lonely Hunter,2004,4
-Anna Karenina,2004,5
-The Good Earth,2004,9
-"The Sound and the Fury, As I Lay Dying, Light in August",2005,6
-A Million Little Pieces,2005,9
-Night,2006,1
-The Measure of a Man: A Spiritual Autobiography,2007,1
-The Road,2007,3
-Middlesex,2007,6
-Love in the Time of Cholera,2007,10
-The Pillars of the Earth,2007,11
-A New Earth,2008,1
-The Story of Edgar Sawtelle,2008,9
-Say You're One of Them,2009,9
-Freedom,2010,9
-"Great Expectations, A Tale of Two Cities",2010,12
-Wild: From Lost to Found on the Pacific Crest Trail,2012,6
-The Twelve Tribes of Hattie,2012,12
-The Invention of Wings,2014,1
-Ruby,2015,2
-The Underground Railroad,2016,8
-Love Warrior,2016,9
-Behold the Dreamers,2017,6
-An American Marriage,2018,2
-The Sun Does Shine,2018,6
-Becoming,2018,11
-The Water Dancer,2019,9
-"Olive, Again",2019,11
+isbn,bookclub_year,bookclub_month
+452260116,1996,10
+140003342X,1996,10
+385265700,1996,11
+671021001,1996,12
+375500723,1997,5
+590956167,1997,9
+375702709,1997,9
+375703063,1997,10
+452280397,1998,1
+425169693,1998,3
+385333137,1998,4
+446672211,1998,12
+316601950,1999,3
+316284955,1999,5
+316182540,1999,5
+671774670,1999,6
+440235596,1999,9
+752864777,1999,9
+385720106,1999,12
+006019491X,2000,2
+61120251,2000,2
+452282195,2000,4
+452287065,2000,4
+345443284,2000,5
+345420748,2000,5
+60930535,2000,6
+60786507,2000,6
+057120175X,2000,6
+345435168,2000,8
+613997638,2000,8
+99461269,2000,8
+074726743X,2000,8
+345439104,2000,9
+788759892,2000,11
+452282829,2001,1
+142000205,2001,3
+446678457,2001,6
+1841156736,2001,9
+140003065X,2001,11
+743466527,2002,1
+452283868,2002,4
+1400033438,2002,4
+452263492,2002,4
+99760010,2002,4
+142004235,2003,6
+613996984,2003,6
+60740450,2004,1
+1417735988,2004,1
+006112009X,2004,1
+60750766,2004,1
+140157514,2004,1
+618084746,2004,4
+141185228,2004,4
+143035002,2004,5
+451528611,2004,5
+140449175,2004,5
+1593080271,2004,5
+486437965,2004,5
+1593081774,2004,5
+142000272,2004,5
+809596814,2004,5
+307276902,2005,9
+307265439,2007,3
+312422156,2007,6
+965045641,2007,6
+140003468X,2007,10
+816147175,2007,10
