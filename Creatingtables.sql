@@ -4,7 +4,7 @@
 
 CREATE TABLE "new_york_times" (
     "isbn" VARCHAR   NOT NULL,
-    "year" INT   NOT NULL,
+    "bestseller_year" INT   NOT NULL,
     CONSTRAINT "pk_new_york_times" PRIMARY KEY (
         "isbn"
      )
@@ -25,8 +25,7 @@ CREATE TABLE "book_description" (
     "author" VARCHAR   NOT NULL,
     "number_of_pages" INT   NOT NULL,
     "publication_date" DATE   NOT NULL,
-    "genre" VARCHAR   NOT NULL,
-    "language" VARCHAR   NOT NULL,
+    "language_code" VARCHAR   NOT NULL,
     "avg_rating" DECIMAL   NOT NULL,
     CONSTRAINT "pk_book_description" PRIMARY KEY (
         "isbn"
