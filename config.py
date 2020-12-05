@@ -1,2 +1,3 @@
-# Enter your API keys
-postgres_pwd = "agent"
+# Enter your postgres credentials
+username = "postgres"
+password = "agent"
