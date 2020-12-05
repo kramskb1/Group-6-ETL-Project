@@ -1,21 +1,19 @@
-New_York_Times
+new_york_times
 -
-ISBN VARCHAR PK FK - Book_description.isbn
-year INT 
+isbn VARCHAR PK FK - Book_description.isbn
+bestseller_year INT 
 
-Oprahs
+oprahs
 -
-ISBN VARCHAR PK FK - Book_description.isbn
-bookclub_month INT
+isbn VARCHAR PK FK - Book_description.isbn
 bookclub_year INT
 
-Book_description
+book_description
 -
-ISBN VARCHAR PK 
+isbn VARCHAR PK 
 title VARCHAR
 author VARCHAR
 number_of_pages INT
 publication_date DATE
-genre VARCHAR
-language VARCHAR
+language_code VARCHAR
 avg_rating DECIMAL
