@@ -6,6 +6,9 @@
 __pycache__/
 *.py[cod]
 *$py.class
+# config file ignoring
+*.py
+/*.py
 
 # C extensions
 *.so
