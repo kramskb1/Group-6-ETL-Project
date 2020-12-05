@@ -107,7 +107,7 @@ An interactive database that a client can use to sort through a collection of bo
 	author VARCHAR
 	no_of_pages INT
 	publication_date DATE 
-  	languAGE VARCHAR
+  	language VARCHAR
 	avg_rating DECIMAL
 
 ## new_york_times
@@ -117,4 +117,4 @@ An interactive database that a client can use to sort through a collection of bo
 ## oprahs
 	isbn - (INT) FK
 	bookclub_month (VARCHAR)
-	boolclub_year (INT)
+	bookclub_year (INT)
