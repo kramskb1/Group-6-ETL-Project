@@ -50,37 +50,34 @@ Github Repository - Benjamin Kramskoi, Ryan
 
 # Information to Extract:
 ## Kaggle - GoodReads
-ISBN
-Title
-Author
-Average Rating
-ISBN
-Language
-Num Pages
+ - ISBN
+ - Title
+ - Author
+ - Average Rating
+ - ISBN
+ - Language
+ - Num Pages
 
 ## Table (wikipedia all 3? - Bestsellers)
-Title
-Year was best seller/ oprah list
-month was on oprah list
+ - Title
+ - Year was best seller/ oprah list
+ - month was on oprah list
 
 # Tables:
-Book_desc{
+## book_description
 	ISBN - VARCHAR PK
 	Title VARCHAR
 	Author VARCHAR
 	No_of_pages INT
 	Publication_date DATE 
-  LanguAGE VARCHAR
+  	LanguAGE VARCHAR
 	Avg_rating DECIMAL
-}
 
-New York Times{
+## new_york_times
 	ISBN - (INT) FK
 	YEar (INT)
-}
 
-Oprah’s{
+## oprahs
 	ISBN - (INT) FK
 	Bookclub_Month (VARCHAR)
 	Boolclub_year (INT)
-}
