@@ -22,8 +22,8 @@
 	- Contains the text files and image of our working ERD
 	
 ## "Output" Folder:
-	- Containes copies of the dataframes made from the "oprah_transform.ipnyb" and "NewYorkTimes_Scrape.ipnyb"
-	- The ret of the project doesn't reference these csvs, just here for easy visualization
+	- Contains copies of the dataframes made from the "oprah_transform.ipynb" and "NewYorkTimes_Scrape.ipynb"
+	- The rest of the project doesn't reference these csvs, just here for easy visualization
 	
 ## "Resources" Folder:
 	- Contains the working CSV files used in the project
@@ -38,10 +38,10 @@
 ## .gitignore:
 	- Used to hide our usernames and passwords when uploading data to our database
 
-## NewYorkTimes_Scrape.ipnyb:
+## NewYorkTimes_Scrape.ipynb:
 	- Extracts data from "https://en.m.wikipedia.org/wiki/Lists_of_The_New_York_Times_Fiction_Best_Sellers" to get a dictionary of the books that were best sellers
 		and the years they acheived that title.
-	- Transforms that data to a dataframe and saves it as a csv in the "Output" folder, while exporting the data our database.
+	- Transforms that data to a dataframe and saves it as a csv in the "Output" folder, while exporting the data to our database.
 	- This dataframe becomes the new_york_times table
 	
 ## README.md:
@@ -49,12 +49,12 @@
 	
 # goodreads_data.ipynb:
 	- Converts the CSV from "https://www.kaggle.com/jealousleopard/goodreadsbooks" to a dataframe so that we may clean it up.
-	- Creates a CSV called "book_description" that we use as the base for "oprah_transform.ipnyb" and "NewYorkTimes_Scrape.ipnyb"
+	- Creates a CSV called "book_description" that we use as the base for "oprah_transform.ipynb" and "NewYorkTimes_Scrape.ipynb"
 	- Exports that dataframe to our database as the table "book_description"
 	
 # oprah_transform.ipynb:
 	- Extracts data from "https://en.m.wikipedia.org/wiki/Oprah%27s_Book_Club" to get a list of the books that were on Oprah's book club and when they got on that list
-	- Transforms that data to a dataframe and saves it as 2 CSVs in the "Output" folder, while exporting the data our database.
+	- Transforms that data to a dataframe and saves it as 2 CSVs in the "Output" folder, while exporting the data to our database.
 	- This dataframe becomes the oprahs table.
 	
 # Proposal - https://docs.google.com/document/d/1G0u6-kgOMOAQ3_Y3xE-ebsPB27kjThAiU10sGMlV_Rs/edit
@@ -92,7 +92,6 @@ An interactive database that a client can use to sort through a collection of bo
  - Title
  - Author
  - Average Rating
- - ISBN
  - Language
  - Num Pages
 
@@ -103,19 +102,19 @@ An interactive database that a client can use to sort through a collection of bo
 
 # Tables:
 ## book_description
-	ISBN - VARCHAR PK
-	Title VARCHAR
-	Author VARCHAR
-	No_of_pages INT
-	Publication_date DATE 
-  	LanguAGE VARCHAR
-	Avg_rating DECIMAL
+	isbn - VARCHAR PK
+	title VARCHAR
+	author VARCHAR
+	no_of_pages INT
+	publication_date DATE 
+  	languAGE VARCHAR
+	avg_rating DECIMAL
 
 ## new_york_times
-	ISBN - (INT) FK
-	YEar (INT)
+	isbn - (INT) FK
+	bestseller_year (INT)
 
 ## oprahs
-	ISBN - (INT) FK
-	Bookclub_Month (VARCHAR)
-	Boolclub_year (INT)
+	isbn - (INT) FK
+	bookclub_month (VARCHAR)
+	boolclub_year (INT)
